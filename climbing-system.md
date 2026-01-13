@@ -84,22 +84,25 @@ We use it to:
 
 ---
 
-## Master Inventory
+## Master Inventory - Wylie & Lorena's climbing gear
 
 ### Inventory Table
 
 | **Category**            | **Item**                    | **Brand/Model**                | **Qty** | **Owner** | **Notes**                     |
 |-------------------------|----------------------------|---------------------------------|---------|-----------|-------------------------------|
 | Helmet                 | Helmet                     | Petzl Boreo                    | 1       | Lorena    | Grey                          |
+| Harness                | Harness                    | Petzl Corax LT                 | 1       | Lorena    | Grey/White                    |
+| Pack                   | Pack                       | Osprey Tempest 22              | 1       | Lorena    | Blue                          |
 | Shoes                  | Shoes                      | La Sportiva Tarantulace        | 1       | Lorena    | Blue                          |
 | Rappel Device          | Tube device                | Petzl Verso (green)            | 1       | Lorena    | Green                         |
 | Gloves                 | Belay gloves               | Leather rope gloves            | 1       | Lorena    | Brown                         |
-| Rope                   | Dynamic rope               | Sterling VR9 9.8mm 70m         | 1       | Shared    | Green                         |
-| Quickdraws             | Quickdraws                 | BD HotForge Hybrid 12cm        | 12      | Shared    | Blue                          |
+| Rope                   | Dynamic rope               | Sterling VR9 9.8mm 70m         | 1       | Shared    | Neon Green                    |
+| Quickdraws             | Quickdraws                 | BD HotForge Hybrid 12cm        | 12      | Shared    | Blue/Black                    |
 | Cord                   | Autoblock cord             | Sterling 6mm 13.5in            | 2       | Shared    | Orange/Yellow                 |
 | Helmet                 | Helmet                     | Petzl Boreo                    | 1       | Wylie     | Grey                          |
-| Harness                | Harness                    | Petzl Corax LT                 | 1       | Wylie     |                               |
-| Shoes                  | Shoes                      | La Sportiva Tarantulace        | 1       | Wylie     | Green                         |
+| Harness                | Harness                    | Petzl Corax LT                 | 1       | Wylie     | Black/Tan                     |
+| Pack                   | Pack                       | Osprey Talon 22                | 1       | Wylie     | Green                         |
+| Shoes                  | Shoes                      | La Sportiva Tarantulace        | 1       | Wylie     | Green/Orange                  |
 | Rappel Device          | Tube device                | Petzl Reverso                  | 1       | Wylie     | Grey                          |
 | Belay Device           | Assisted braking           | Petzl GriGri                   | 1       | Wylie     | Grey                          |
 | Progress Capture       | Progress capture           | Petzl Micro Traxion            | 1       | Wylie     |                               |
@@ -162,71 +165,120 @@ Left = anchors/setup. Right = belay/life support.
 
 ## Systems Overview
 
-Each system is documented as a repeatable flow with invariants, abort criteria, and common failure modes.
+Each system is documented as:
+- Entry state
+- Invariants
+- Allowed transitions
+- Abort criteria
+- Common failure modes
 
-### Systems
-- Top-Rope Climbing
-- Sport Climbing
-- Anchors & Cleaning
-- Rappelling
-- Self-Belay
+---
+
+## Transitions (High-Risk States)
+
+### Purpose
+Transitions are the **highest-risk moments** in climbing.
+
+> If a system is changing, risk is elevated — regardless of difficulty.
+
+### Core Transition Invariants
+1. Never transition from **two attachments to zero**
+2. Change **only one variable at a time**
+3. Life-support devices do **not** change sides
+4. If unsure, stop and revert to last known safe state
+5. Unclipping primary systems requires verbal confirmation
+
+### Mandatory Stop Points
+Required whenever:
+- A belay device is removed
+- A rope is removed
+- A tether is adjusted
+- Heat, fatigue, or distraction is present
+
+**Stop Point Protocol**
+1. Pause
+2. State aloud:
+   - “Attached by ___”
+   - “Primary device is ___”
+   - “Backup is ___”
+3. Proceed only after confirmation
+
+### Common Transition Scenarios
+
+#### Belay → Rappel
+- Tether remains clipped until rappel is built, backed up, and weighted
+
+#### Anchor Cleaning
+- Two attachments before altering anchor
+- Never untethered while re-threading
+
+#### Temporary Tethering
+- Locking carabiner only
+- Never a belay substitute
+
+#### Device Swap
+- New device installed first
+- Backup added
+- Old device removed last
+
+#### Passing Devices
+- Passed clipped or locked
+- Receiver confirms verbally
+
+### Heat & Fatigue Modifiers (AZ)
+- Slow transitions deliberately
+- Increase verbalization
+- Default to additional redundancy
+- Abort earlier than usual
+
+**Mantra:**  
+**Stop → State → Check → Proceed**
 
 ---
 
 ## Top-Rope Climbing
-
-### Purpose
-Operate top-rope climbing with conservative checks and consistent communication.
 
 ### Mandatory Partner Check
 1. Knot
 2. Buckles
 3. Device orientation
 4. Carabiners locked
-5. Communication
+5. Communication confirmed
 
 ---
 
 ## Sport Climbing
 
-### Purpose
-Conservative sport climbing support using our existing equipment.
-
 ### Required Gear
 - Rope, helmets, harnesses
-- Belay device(s)
-- **12× quickdraws**
+- Belay device
+- 12× quickdraws
 - Optional: OHM II
 
 ---
 
 ## Anchors & Cleaning
 
-### Purpose
-Build, manage, and clean anchors with conservative transitions.
-
 ### Anchor Invariant
-- Never transition from two attachments to one without confirmation.
+Never transition from two attachments to one without confirmation.
 
 ---
 
 ## Rappelling
 
-### Purpose
-Execute conservative rappels with mandatory backups.
-
 ### Required Gear
-- Tube device (Reverso/Verso)
+- Tube device
 - HMS locker
-- **Autoblock cord**
+- Autoblock cord
 - Helmet
 
 ---
 
-## Self-Belay
+## Self-Belay (Restricted)
 
-### Status
-Documented for understanding only. Not default practice.
+Documented for understanding only.  
+Not default practice.  
+No improvisation permitted.
 
 ---
 
@@ -287,6 +339,10 @@ Today is a:
 3. Log any incidents or near-misses in the incident log.
 4. Review the climb and discuss any lessons learned.
 5. Ensure the area is clean and free of trash.
+
+---
+
+
 
 ---
 
