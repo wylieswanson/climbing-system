@@ -99,6 +99,7 @@ We use it to:
 | Rope                   | Dynamic rope               | Sterling VR9 9.8mm 70m         | 1       | Shared    | Neon Green                    |
 | Quickdraws             | Quickdraws                 | BD HotForge Hybrid 12cm        | 12      | Shared    | Blue/Black                    |
 | Cord                   | Autoblock cord             | Sterling 6mm 13.5in            | 2       | Shared    | Orange/Yellow                 |
+| Pack                   | Rope pack                  | Petzl Kliff Rope Bag & Tarp    | 1       | Shared    | Orange                        |
 | Helmet                 | Helmet                     | Petzl Boreo                    | 1       | Wylie     | Grey                          |
 | Harness                | Harness                    | Petzl Corax LT                 | 1       | Wylie     | Black/Tan                     |
 | Pack                   | Pack                       | Osprey Talon 22                | 1       | Wylie     | Green                         |
@@ -121,6 +122,8 @@ We use it to:
 | Cord                   | Utility cord               | 3mm 50ft                       | 1       | Wylie     | Orange                        |
 | Tether                 | Adjustable tether          | Petzl Connect Adjustable       | 1       | Wylie     | Blue/Gold                     |
 | Gloves                 | Belay gloves               | Petzl Cordex                   | 1       | Wylie     | Brown                         |
+| Tools                  | Multi-plier                | Gerber Multi-plier             | 1       | Wylie     | Black                         |
+
 
 ---
 
