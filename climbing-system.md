@@ -1,6 +1,6 @@
 # Climbing System Manual
 
-**Version:** v1.0.2  
+**Version:** v1.0.3
 **Last reviewed:** 2026-01-07  
 
 ---
@@ -164,6 +164,80 @@ Left = anchors/setup. Right = belay/life support.
 - LF: Verso
 - RF: Borrowed locking carabiner
 - Rear: Gloves / autoblock (as needed)
+
+---
+
+# Parked Gear Layout — Canonical State
+
+## Scope
+Defines where all equipment lives when fully racked, idle, and not actively in use (base of route, between pitches, walking at the crag).
+
+## Global Rules
+- Belay loop = life-support only (no storage)
+- Gear loops = parking only (never load-bearing)
+- Right side = climbing / fast access
+- Left side = anchors / problem-solving
+- Front loops = active gear
+- Rear loops = calm parking
+- All parking locations are single-loop, single-motion, unambiguous
+
+---
+
+## Gear Loop Assignments (Wylie)
+
+### Left Front (LF) — Anchor & Build
+- Primary anchor HMS
+- Spare locking carabiner
+- Slings / cordalette
+- No quickdraws
+
+### Right Front (RF) — Lead Ammo
+- Quickdraws only  
+  (rope-end down, bolt-end up, spine out)
+
+### Left Rear (LR) — Tools & Attachment Parking
+- Micro Traxion + dedicated locker
+- Parked lanyard carabiner (Sm’D SL from Connect Adjust) when not clipped to anchor
+
+### Right Rear (RR) — Reserved
+- Intentionally kept clear to avoid congestion and confusion
+
+### Center Back (small loop)
+- Chalk bag and soft goods only
+- No metal
+
+---
+
+## Gear Loop Assignments (Lorena)
+
+### Left Front (LF)
+- Attache
+- Verso
+- Auto-brake device (location TBD for Wylie)
+
+---
+
+## Lanyard Doctrine
+- Connect Adjust is permanently girth-hitched to the belay loop
+- Sm’D SL:
+  - Clips to anchor/masterpoint when in use
+  - Parks on Left Rear (LR) when idle
+- Lanyard is never routed through or around gear loops as part of a load path
+
+---
+
+## Quickdraw Doctrine
+- Quickdraws live exclusively on Right Front (RF)
+- Never stored on rear loops or belay loop
+- Removed from harness as placed during lead
+
+---
+
+## Transition Invariant (Racking)
+- No transition may result in:
+  - zero attachments
+  - ambiguous load paths
+  - reliance on gear loops for life support
 
 ---
 
@@ -396,5 +470,3 @@ To make the manual more accessible and user-friendly:
 
 ### Current
 - **v1.0.2** — latest
-
----
