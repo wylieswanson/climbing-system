@@ -96,17 +96,18 @@ We use it to:
 | Shoes                  | Shoes                      | La Sportiva Tarantulace        | 1       | Lorena    | Blue                          |
 | Rappel Device          | Tube device                | Petzl Verso (green)            | 1       | Lorena    | Green                         |
 | Gloves                 | Belay gloves               | Leather rope gloves            | 1       | Lorena    | Brown                         |
+| Cord                   | Autoblock cord             | Sterling 6mm 13.5in            | 1       | Lorena    | Orange/Yellow                 |
 | Rope                   | Dynamic rope               | Sterling VR9 9.8mm 70m         | 1       | Shared    | Neon Green                    |
 | Quickdraws             | Quickdraws                 | BD HotForge Hybrid 12cm        | 12      | Shared    | Blue/Black                    |
-| Cord                   | Autoblock cord             | Sterling 6mm 13.5in            | 2       | Shared    | Orange/Yellow                 |
+| Cord                   | Autoblock cord             | Sterling 6mm 13.5in            | 1       | Wylie     | Orange/Yellow                 |
 | Pack                   | Rope pack                  | Petzl Kliff Rope Bag & Tarp    | 1       | Shared    | Orange                        |
 | Helmet                 | Helmet                     | Petzl Boreo                    | 1       | Wylie     | Grey                          |
 | Harness                | Harness                    | Petzl Corax LT                 | 1       | Wylie     | Black/Tan                     |
 | Pack                   | Pack                       | Osprey Talon 22                | 1       | Wylie     | Green                         |
 | Shoes                  | Shoes                      | La Sportiva Tarantulace        | 1       | Wylie     | Green/Orange                  |
 | Rappel Device          | Tube device                | Petzl Reverso                  | 1       | Wylie     | Grey                          |
-| Belay Device           | Assisted braking           | Petzl GriGri                   | 1       | Wylie     | Grey                          |
-| Progress Capture       | Progress capture           | Petzl Micro Traxion            | 1       | Wylie     |                               |
+| Belay Device           | Assisted braking           | Petzl GriGri                   | 1       | Shared    | Grey                          |
+| Progress Capture       | Progress capture           | Petzl Micro Traxion            | 1       | Wylie     | Orange                        |
 | Assisted Device        | Brake assist (lead belay)  | Edelrid OHM II                 | 1       | Wylie     | Yellow                        |
 | Carabiner (locking)    | HMS locker                 | Petzl Attache SL               | 3       | Wylie     | Black                         |
 | Carabiner (locking)    | Locker                     | Petzl Am'D Twistlock           | 1       | Wylie     |                               |
@@ -114,10 +115,10 @@ We use it to:
 | Carabiner (locking)    | Locker                     | Petzl Sm'D Twist-Lock (GriGri) | 1       | Wylie     | Gold                          |
 | Carabiner (non-locking)| Carabiner                  | Petzl Spirit Bent Gate (green) | 1       | Wylie     |                               |
 | Carabiner (non-locking)| Carabiner                  | Petzl Spirit (silver)          | 1       | Wylie     |                               |
-| Sling                  | 60cm Dyneema sling         | NewDoar 10mm                   | 3       | Wylie     |                               |
-| Sling                  | 120cm Dyneema sling        | NewDoar 10mm                   | 3       | Wylie     |                               |
-| Sling                  | 120cm nylon sling          | Metolius 18mm                  | 1       | Wylie     |                               |
-| Sling                  | 120cm nylon sling          | Metolius 11mm                  | 1       | Wylie     |                               |
+| Sling                  | 60cm Dyneema sling         | NewDoar 10mm                   | 3       | Wylie     | Blue/White                    |
+| Sling                  | 120cm Dyneema sling        | NewDoar 10mm                   | 3       | Wylie     | Black/White                   |
+| Sling                  | 120cm nylon sling          | Metolius 18mm                  | 1       | Wylie     | Grey/Black                    |
+| Sling                  | 120cm nylon sling          | Metolius 11mm                  | 1       | Wylie     | Red/White                     |
 | Cord                   | Accessory cord             | Sterling 7mm 30ft              | 1       | Wylie     | Purple                        |
 | Cord                   | Utility cord               | 3mm 50ft                       | 1       | Wylie     | Orange                        |
 | Tether                 | Adjustable tether          | Petzl Connect Adjustable       | 1       | Wylie     | Blue/Gold                     |
