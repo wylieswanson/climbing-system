@@ -1,7 +1,7 @@
 # Climbing System Manual
 
-**Version:** v1.0.3
-**Last reviewed:** 2026-01-07  
+**Version:** v1.0.4
+**Last reviewed:** 2026-01-16
 
 ---
 
@@ -110,9 +110,9 @@ We use it to:
 | Progress Capture       | Progress capture           | Petzl Micro Traxion            | 1       | Wylie     | Orange                        |
 | Assisted Device        | Brake assist (lead belay)  | Edelrid OHM II                 | 1       | Wylie     | Yellow                        |
 | Carabiner (locking)    | HMS locker                 | Petzl Attache SL               | 3       | Wylie     | Black                         |
-| Carabiner (locking)    | Locker                     | Petzl Am'D Twistlock           | 1       | Wylie     | Silver/Red                    |
-| Carabiner (locking)    | Locker                     | Petzl Sm'D Screw-Lock (gold)   | 1       | Wylie     | Gold                          |
-| Carabiner (locking)    | Locker                     | Petzl Sm'D Twist-Lock (GriGri) | 1       | Wylie     | Gold                          |
+| Carabiner (locking)    | Locker                     | Petzl Am'D Twistlock           | 2       | Wylie     | Silver/Red                    |
+| Carabiner (locking)    | Locker                     | Petzl Sm'D Screw-Lock (Connect)| 1       | Wylie     | Gold                          |
+| Carabiner (locking)    | Locker                     | Petzl Sm'D Twist-Lock (Connect)| 1       | Wylie     | Gold                          |
 | Carabiner (non-locking)| Carabiner                  | Petzl Spirit Bent Gate (green) | 1       | Wylie     | Green                         |
 | Carabiner (non-locking)| Carabiner                  | Petzl Spirit (silver)          | 4       | Wylie     | Silver                        |
 | Sling                  | 60cm Dyneema sling         | NewDoar 10mm                   | 3       | Wylie     | Blue/White                    |
